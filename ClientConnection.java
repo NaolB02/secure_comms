@@ -2,9 +2,9 @@ import java.io.*;
 import java.net.*;
 
 public class ClientConnection {
-    public static String host;
-    public static final int PORT = 6060;
-    public static Socket link = null; 
+    public String host;
+    public final int PORT = 6060;
+    public Socket link = null; 
 
     public ClientConnection(String newHost) {
         host = newHost;

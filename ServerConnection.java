@@ -2,9 +2,9 @@ import java.io.*;
 import java.net.*;
 
 public class ServerConnection {
-    public static ServerSocket servSock;
-    public static final int PORT = 6060;
-    public static Socket link = null; 
+    public ServerSocket servSock;
+    public final int PORT = 6060;
+    public Socket link = null; 
 
 
     public ServerConnection() {

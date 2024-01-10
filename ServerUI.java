@@ -66,7 +66,7 @@ public class ServerUI {
                 // Display text in the text area
                 displayArea.append("\nThe recieved message is: " + encryptedMessage + "\n");
                 displayArea.append("\nThe decrypted message is: " + decryptedMessage);
-                displayArea.append("\n############## Message Received ##################################");
+                displayArea.append("\n\n############## Message Received ##################################");
 
                 displayArea.append("\n\n Waiting for messages\n");
         }

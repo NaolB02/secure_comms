@@ -14,9 +14,9 @@ public class ServerUI {
         // Create the main frame
         JFrame frame = new JFrame("Server");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 300);
+        frame.setSize(600, 500);
 
-        JTextArea displayArea = new JTextArea(10, 40);
+        JTextArea displayArea = new JTextArea(20, 50);
         displayArea.setEditable(false); // Make the display area non-editable
 
         // Create a panel to hold components
@@ -64,8 +64,9 @@ public class ServerUI {
                     System.exit(0);
                 }
                 // Display text in the text area
-                displayArea.append("The recieved message is: " + encryptedMessage + "\n");
-                displayArea.append("The decrypted message is: " + decryptedMessage);
+                displayArea.append("\nThe recieved message is: " + encryptedMessage + "\n");
+                displayArea.append("\nThe decrypted message is: " + decryptedMessage);
+                displayArea.append("\n############## Message Received ##################################");
 
                 displayArea.append("\n\n Waiting for messages\n");
         }
